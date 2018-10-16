@@ -1,0 +1,47 @@
+.planet-details{
+  width: auto;
+  /* margin: 20pt; */
+  /* padding: 20pt; */
+  margin-left: 10pt;
+  margin-right: 10pt;
+  height:100%;
+  background-color: cadetblue;
+}
+.planets-menu{
+  background-color: burlywood;
+}
+body{
+  background-color: darkseagreen;
+  text-align: center;
+  font-family: monospace;
+}
+li{
+  list-style-type: none;
+  /* text-align: center; */
+  text-align:left;
+  padding-right: 10pt;
+}
+
+li:hover {
+  background-color: #76818E;
+  display: block;
+}
+.active {
+  background-color: #76818E;
+}
+
+.active {
+  background-color: moccasin;
+  color: beige;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+img{
+  width: 100%;
+  height: auto;
+}
