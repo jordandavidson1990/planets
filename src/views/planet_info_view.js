@@ -17,6 +17,11 @@ PlanetInfoView.prototype.render = function(planet){
    a surface area of ${planet.surfaceArea}, a volume of ${planet.volume}, a gravity of ${planet.gravity} and has ${planet.moons} moons.`
   this.container.innerHTML = '';
   this.container.appendChild(infoParagraph);
+  const img = document.createElement("img");
+  img.src = planet.image;
+  img.alt = `image of ${planet.name}`
+  img.id = 'planetImg';
+  this.container.appendChild(img)
 };
 
 module.exports = PlanetInfoView;
